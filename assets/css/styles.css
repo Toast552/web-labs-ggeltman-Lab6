@@ -1,0 +1,166 @@
+/* Add your code here */
+
+* {
+    background: url(images/mars.jpg) no-repeat center center fixed; 
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+}
+
+#wrap {
+    background: url(images/mars.jpg) no-repeat center center fixed; 
+    height: 100vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 768px;
+}
+
+html {
+    background: url(/assets/images/mars.jpg) no-repeat center center fixed; 
+}
+
+.header {
+    background-color:aliceblue;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    border-radius: .1em;
+}
+
+main {
+    overflow: auto;
+    text-align: center;
+    list-style-position: inside;
+    display: block;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.selfportrait {
+    max-width: 200px;
+    float: center;
+}
+
+.marsville {
+    max-width: 200px;
+    
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+header, footer {
+    margin-top: 0.2em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#footer {
+    font-size: .70em;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+nav{
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+nav ul {
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    padding: 0;
+}
+
+nav li{
+    background-color: #aaa;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.1em;
+    padding: 0.4em;
+    
+}
+
+nav li a{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+em {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.column1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    background-color: #aaa;
+    padding: 0;
+    border-radius: 2em;
+    border: 1px solid #000000;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    background-color: #bbb;
+    padding: 0;
+    border-radius: 2em;
+    border: 1px solid #000000;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 660px) {
+    #wrap {
+        width: 80%;
+        height: auto;
+    }
+    nav {
+        vertical-align: top;
+    }
+    .column2 {
+        visibility: visible;
+    }
+    .column1 {
+        width: 50%;
+    }
+}
+
